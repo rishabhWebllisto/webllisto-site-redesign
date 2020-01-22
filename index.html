@@ -14,6 +14,42 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.hexagon {
+		  position: relative;
+		  width: 300px; 
+		  height: 173.21px;
+		  background-color: #FFFF;
+		  margin: 86.60px 0;
+		  -ms-transform: rotate(20deg); /* IE 9 */
+		  -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+		  transform: rotate(90deg); /* Standard syntax */
+		}
+
+		.hexagon:before,
+		.hexagon:after {
+		  content: "";
+		  /*position: absolute;
+		  width: 0;
+		  border-left: 150px solid transparent;
+		  border-right: 150px solid transparent;*/
+		  float: left;
+width: 60px;
+height: 104px;
+background-color: #6C6;
+		}
+
+		.hexagon:before {
+		  bottom: 100%;
+		  border-bottom: 86.60px solid #FFFF;
+		}
+
+		.hexagon:after {
+		  top: 100%;
+		  width: 0;
+		  border-top: 86.60px solid #FFFF;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -32,24 +68,8 @@
 					  we’ll build the technology of your tomorrow.</p>
 				<button type="button">Get in touch</button>
 			</div>
-			<div class="col-6 right " >
-				<div>
-					<div id="backdrop" class="content-right-h1" >We Create Web Interfaces Development</h1></div>
-					<div id="hex-content" >
-						<div class="row hex-row">
-							<div id="hexagon-1 " class="col-4  left">1</div>
-							<div class="col-4">2</div>
-							<div class="col-4">3</div>
-							
-						</div>
-						<div class="row">
-							<div class="col-4">4</div>
-							<div class="col-4">5</div>
-							<div class="col-4">6</div>	
-						</div>
-					</div>
-				  </div>
-				
+			<div class="col-6 right">
+				<div class="hexagon"></div>
 				
 			</div>
 		</div>
