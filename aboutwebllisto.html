@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<title>The Simple Website</title>
+	<title>Website Redesign</title>
 
 	<!-- Required meta tags -->
 	<meta charset="UTF-8">
@@ -16,7 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
 	<style type="text/css">
 		body {
-			color:#FFFFF;
+			color:white;
 			overflow-x:hidden;
 			overflow-y:hidden;
 		}
@@ -33,10 +33,10 @@
 
 		.contact_logo_img img {
 			    height: 593px;
-		    /* width: 859px; */
-		    position: absolute;
-		    top: 45px;
-		    left: -20px;
+				position: absolute;
+				top: 207px;
+				left: -20px;
+				/* padding-top: 150px; */
 		}
 
 		.social_icon img {
@@ -60,7 +60,29 @@
 		    color: #FFFF;
 
 		}
-
+		.about-text{
+			font-size: 18px;
+			font-family: 'Open-sans',Regular;
+			letter-spacing: 0;
+		}
+		.about-headtext{
+			font-size: 50px;
+			font-family: 'Playfair'Regular;
+			letter-spacing: 0;
+			padding-top:100px;
+		}
+		.btnabout{
+			color: #31384E;
+			font-size: 20px;
+			border-radius: 50px;
+			
+		}
+		.watermark{
+			opacity:0.11;
+ 			z-index:99;
+ 			color:white;
+			font-size: 140px;
+		}
 	</style>
 </head>
 <body>
@@ -71,13 +93,22 @@
 	<section class="cotact_address banner-img text-white ">
   		<div class="container-fluid">
     		<div class="row">
-              <div class="col-12 col-md-3">
+              <div class="col-12 col-md-3 col-md-7">
+				  <div class="watermark">About Webllisto</div>
               	<div class="contact_logo_img" >
               		<img src="images/DSC_8462.png">
               	</div>
               </div>
-               <div class="col-12 col-md-3">
-               	<h1>About webllisto</h1>
+               <div class="col-12 col-md-3 col-md-5">
+				   <p class="about-headtext">About webllisto</p>
+				   
+					<p class="about-text">Webllisto technologies is a one-stop web development solution for web/app development,
+						graphic design solutions, and Blockchain development. We provide custom development, 
+						design, and coding services includes a range of technologies such as Python, Node.js,
+							Mobile apps (iOS, Android, and HTML5). Our featured services include custom web design/development,
+						app development, digital marketing services, graphic design, and Blockchain development
+					</p>
+				   <button class="btn btn-circle btn-lg bg-white btnabout">Know More</button>
               </div>
              
 	         
