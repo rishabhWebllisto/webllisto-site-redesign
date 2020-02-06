@@ -1,139 +1,87 @@
-/*Custom Styles*/
-*{
-    margin: 0;
-    padding: 0;
+
+
+/*Page About CSS*/
+body {
+    font-size: 18px;
 }
 
-.section-1 {
-    /* Layout properties */
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 1920px;
-    height: 1080px;
-    background: transparent linear-gradient(90deg, #4BAEC3 0%, #00518F 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
+.text_font {
+    font-family: "Open Sans";
 }
-.section-1 > .row >.logo {
-    margin-top: 20px;
-    margin-left: 140px;
-    width: 240px;
-    height: 58px;
-    background: transparent url('../images/Group\ 499.svg') 0% 0% no-repeat padding-box; 
-    opacity: 1;
-}
-.dot-menu {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 1750px;
-    width: 30px;
-    height: 29px;   
-    background: transparent url('../images/004-dots-menu.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-#contetn-left-h1{
-    margin-top: 284px;
-    margin-left: 140px;
-    width: 400px;
-    height: 252px;
 
-    text-align: left;
-    font: Regular 60px/86px Playfair Display;
+.heading_font {
+    font-family: "Playfair Display";
+}
+
+.heading2_style {
+    font-size: 45px;
+    font-family: 86px;
     letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    
+    color: #343434;
 }
-#content-left-p {
-    /* margin-top: 576px; */
-    margin-left: 140px; 
-    width: 523px;
-    height: 172px; 
 
-    text-align: left;
-    font: Regular 20px/36px Open Sans;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    
-}
-.section-1 > .content > .left > button {
-    margin-top: 40px;
-    margin-left: 140px;
-    width: 230px;
-    height: 70px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+.btn {
     border-radius: 96px;
-    opacity: 1;
 }
 
-.content-right-h1{
-   
-    
-}
-#backdrop{
-    z-index: 1; 
-    position: absolute; 
-    
-    margin-top: 175px;
-   
-    width: 1266px;
-    height: 800px;
-    text-align: left;
-    font: Regular 190px/273px Playfair Display;
-    letter-spacing: 0;
-    color: #3897B6;
-    opacity: 0.9;
+.btn.btn-dark {
+    background: #343434 0% 0% no-repeat padding-box;
+    border: none;
 }
 
-#hex-content{
-    z-index: 2;
-    position: absolute; 
-    top: 0px; left: 0px; 
-    /* background-image:url(/curtain.png); */
-    /* background-position:100px 200px;  */
-    width: 1266px;
-    height: 800px;
+.btn.btn-dark {
+    background: #343434 0% 0% no-repeat padding-box;
+    border: none;
 }
 
-.hex {
-    float: left;
-    margin-right: -26px;
-    margin-bottom: -50px;
-
-}
-.hex .left {
-    float: left;
-    width: 0;
-    border-right: 30px solid #6C6;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex .middle {
-    float: left;
-    width: 60px;
-    height: 104px;
-    background: #6C6;
-}
-.hex .right {
-    float: left;
-    width: 0;
-    border-left: 30px solid #6C6;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex-row {
-    clear: left;
-}
-.hex.even {
-    margin-top: 53px;
+.btn.btn-lg {
+    padding: 20px 40px;
 }
 
-#hexagon-1{
-    margin-top: 232px;
-    margin-left: 935px;
-    width: 330px;
-    height: 248px;
-    color: #fff;
-    background: transparent url('../images/0e22f1562284b9c081be3a87527d6c70.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+/*About Cards*/
+.about-cards .card .card-title {
+    font-size: 35px;
+    line-height: 66px;
+    font-weight: bold;
+}
+
+.about-cards .card .card-text {
+    line-height: 39px;
+    color: #343434;
+}
+
+.about-cards .card .card-body {
+    padding: 0 15%;
+}
+
+/*Team Cards*/
+.team-cards .card .card-title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #343434;  
+    font-weight: bold;
+}
+
+.team-cards .card .card-text {
+    line-height: 24px;
+    color: #40AAC0;
+}
+
+/*Join team*/
+section.join-team {
+    background-image: url('../images/join-team-bg.png');
+    background-position: center center;
+    background-size: 100%;
+}
+
+.join-team .mask_b {
+    position: absolute;
+    z-index: 0;
+    background: rgba(0,0,0,.8);
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 90%;
+    }
 }
