@@ -1,75 +1,28 @@
-/*Custom Styles*/
-*{
-    margin: 0;
-    padding: 0;
+/*Page About CSS*/
+body {
+    font-size: 18px;
 }
 
-.section-1 {
-    /* Layout properties */
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 1920px;
-    height: 1080px;
-    background: transparent linear-gradient(90deg, #4BAEC3 0%, #00518F 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
+.text_font {
+    font-family: "Open Sans";
 }
-.section-1 > .row >.logo {
-    margin-top: 20px;
-    margin-left: 140px;
-    width: 240px;
-    height: 58px;
-    background: transparent url('../images/Group\ 499.svg') 0% 0% no-repeat padding-box; 
-    opacity: 1;
-}
-.dot-menu {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 1750px;
-    width: 30px;
-    height: 29px;   
-    background: transparent url('../images/004-dots-menu.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-#contetn-left-h1{
-    margin-top: 284px;
-    margin-left: 140px;
-    width: 400px;
-    height: 252px;
 
-    text-align: left;
-    font: Regular 60px/86px Playfair Display;
+.heading_font {
+    font-family: "Playfair Display";
+}
+
+.heading2_style {
+    font-size: 45px;
+    font-family: 86px;
     letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    
+    color: #343434;
 }
-#content-left-p {
-    /* margin-top: 576px; */
-    margin-left: 140px; 
-    width: 523px;
-    height: 172px; 
 
-    text-align: left;
-    font: Regular 20px/36px Open Sans;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    
-}
-.section-1 > .content > .left > button {
-    margin-top: 40px;
-    margin-left: 140px;
-    width: 230px;
-    height: 70px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+.btn {
     border-radius: 96px;
     opacity: 1;
 }
-
-.content-right-h1{
-   
-    
-}
+ 
 #backdrop{
     z-index: 1; 
     position: absolute; 
@@ -223,6 +176,173 @@
     background: transparent linear-gradient(140deg, #0B42F5 0%, #34B3FF 100%) 0% 0% no-repeat padding-box;
     float: left;
 }
+ 
+
+.btn.btn-dark {
+    background: #343434 0% 0% no-repeat padding-box;
+    border: none;
+}
+
+.btn.btn-dark {
+    background: #343434 0% 0% no-repeat padding-box;
+    border: none;
+}
+
+.btn.btn-lg {
+    padding: 20px 40px;
+}
+
+/*About Cards*/
+.about-cards .card .card-title {
+    font-size: 35px;
+    line-height: 66px;
+    font-weight: bold;
+}
+
+.about-cards .card .card-text {
+    line-height: 39px;
+    color: #343434;
+}
+
+.about-cards .card .card-body {
+    padding: 0 15%;
+}
+
+/*Team Cards*/
+.team-cards .card .card-title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #343434;  
+    font-weight: bold;
+}
+
+.team-cards .card .card-text {
+    line-height: 24px;
+    color: #40AAC0;
+}
+
+.team-cards .card .card-body {
+    padding: 0;
+}
+
+/*Join team*/
+section.join-team {
+    background-image: url('../images/join-team-bg.png');
+    background-position: center center;
+    background-size: 100%;
+}
+
+.join-team .mask_b {
+    position: absolute;
+    z-index: 0;
+    background: rgba(0,0,0,.8);
+}
 
 
+@media all and (max-width: 1366px) {
 
+    body {
+        font-size: 16px;
+    }
+
+    .about-cards .card .card-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .about-cards .card .card-text {
+        line-height: 26px;
+        color: #343434;
+    }
+
+    .heading2_style {
+        font-size: 40px;
+    }
+
+    .team-cards .card .card-title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .team-cards .card .card-img-top {
+        margin-bottom: 15px;
+    }
+
+    .team-cards .card .card-text {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .team-cards .btn.btn-lg {
+        padding: 15px 34px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .about-cards .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+ 
+    .about-cards .card .card-body {
+        padding: 0 15px 20px 0;
+    }
+
+    .about-cards .card .order-2 .card-body {
+        padding: 0 0 20px 15px;
+    }
+
+    .about-cards .card .card-img-top,
+    .about-cards .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 576px) {
+
+    section.page-content {
+        padding-bottom: 50px;
+    }
+
+    .btn.btn-lg {
+        padding: 15px 40px;
+        font-size: 14px;
+    }
+
+    .about-cards .card .order-2 .card-body {
+       padding: 0 0 20px 0;
+    }
+
+    .heading2_style {
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    .about-cards .card .card-title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .about-cards.mb_100 {
+        margin-bottom: 50px;
+    }
+
+    .team-cards .card {
+        margin-top: 0 !important;
+    }
+
+    section.join-team {
+        text-align: center;
+    }
+}
