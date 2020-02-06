@@ -67,6 +67,10 @@ body {
     color: #40AAC0;
 }
 
+.team-cards .card .card-body {
+    padding: 0;
+}
+
 /*Join team*/
 section.join-team {
     background-image: url('../images/join-team-bg.png');
@@ -80,8 +84,111 @@ section.join-team {
     background: rgba(0,0,0,.8);
 }
 
-@media (min-width: 1300px) {
+
+@media all and (max-width: 1366px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .about-cards .card .card-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .about-cards .card .card-text {
+        line-height: 26px;
+        color: #343434;
+    }
+
+    .heading2_style {
+        font-size: 40px;
+    }
+
+    .team-cards .card .card-title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .team-cards .card .card-img-top {
+        margin-bottom: 15px;
+    }
+
+    .team-cards .card .card-text {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .team-cards .btn.btn-lg {
+        padding: 15px 34px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1200px) {
     .container {
         max-width: 90%;
+    }
+
+    .about-cards .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+ 
+    .about-cards .card .card-body {
+        padding: 0 15px 20px 0;
+    }
+
+    .about-cards .card .order-2 .card-body {
+        padding: 0 0 20px 15px;
+    }
+
+    .about-cards .card .card-img-top,
+    .about-cards .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 576px) {
+
+    section.page-content {
+        padding-bottom: 50px;
+    }
+
+    .btn.btn-lg {
+        padding: 15px 40px;
+        font-size: 14px;
+    }
+
+    .about-cards .card .order-2 .card-body {
+       padding: 0 0 20px 0;
+    }
+
+    .heading2_style {
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    .about-cards .card .card-title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .about-cards.mb_100 {
+        margin-bottom: 50px;
+    }
+
+    .team-cards .card {
+        margin-top: 0 !important;
+    }
+
+    section.join-team {
+        text-align: center;
     }
 }
