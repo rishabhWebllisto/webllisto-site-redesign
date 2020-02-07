@@ -1,11 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+/*Common CSS - Vinod*/
+.container {
+    max-width: 90%;
 }
 
-
-.section-1 {
-    /* Layout properties */
+/*Home Section 1 - Vinod*/
+.home_section1 {
     margin-top: 0px;
     margin-left: 0px;
     width: 100%;
@@ -13,53 +12,11 @@
     padding-bottom: 80px;
     background: transparent linear-gradient(90deg, #4BAEC3 0%, #00518F 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding-top: 100px;
 }
-.section-1 > .row >.logo {
-    margin-top: 20px;
-    margin-left: 140px;
-    width: 240px;
-    height: 58px;
-    background: transparent url('../images/logo.png') 0% 0% no-repeat padding-box; 
-    opacity: 1;
-}
-.dot-menu {
-    position: absolute;
-    margin-top: 20px;
-    /*margin-left: 1750px;*/
-    width: 30px;
-    height: 29px;   
-    /*background: transparent url('../images/004-dots-menu.svg') 0% 0% no-repeat padding-box;*/
-    opacity: 1;
-}
-#contetn-left-h1{
-    margin-top: 130px;
-    margin-left: 140px;
-    /*width: 400px;*/
-    /*height: 200px;*/
 
-    text-align: left;
-    font: Regular 60px/86px Playfair Display;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    
-}
-#content-left-p {
-    /* margin-top: 576px; */
-    margin-left: 140px; 
-    /*width: 523px;*/
-   /* height: 172px; */
-
-    text-align: left;
-    font: Regular 20px/36px Open Sans;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    font-size: 20px;
-}
-.section-1 > .content > .left > button {
+.home_section1 .left button {
     margin-top: 40px;
-    margin-left: 140px;
     width: 230px;
     height: 70px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -67,14 +24,31 @@
     opacity: 1;
     color: #007bff;
 }
-.section-1 p{
+
+.home_section1 .left h1{
+    font-family: 'Playfair Display';
+    font-weight:normal;
+    font-size: 60px;
+    line-height: 86px;
+}
+
+.home_section1 p{
     margin-top: 55px;
 }
-.content-right-h1{
-   
-    
+
+.home_section1 .left {
+    margin-top: 100px;
 }
-#backdrop{
+
+.home_section1 .left p{
+    font-family: 'Open Sans';
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.bg_heading_text{
     z-index: 1; 
     position: absolute; 
     
@@ -182,7 +156,7 @@ h2{
     font-size: 50px;
     color:#fff;
 }
-.about_sec{
+.about_section{
     background: transparent linear-gradient(90deg, #CEB200 0%, #D97400 100%) 0% 0% no-repeat padding-box;
     height: auto;
 }
@@ -195,7 +169,7 @@ h2{
     font-size: 100px;
     margin-left: -90px;
 }
-.about_sec .left{
+.about_section .left{
    /* background: transparent url('../images/aboutus_1_600x450.png') 0% 0% no-repeat padding-box;
   height: 500px;*/
 
@@ -205,14 +179,14 @@ h2{
    width: 670px;
     margin-left: -125px;
 }
-.about_sec .right {
+.about_section .right {
    top:150px;
 }
-.about_sec h2{
+.about_section h2{
     font-size: 50px;
     color: #fff;
 }
-.about_sec h1{
+.about_section h1{
         text-align: left;
     font: Regular 190px/208px Playfair Display;
     letter-spacing: 0;
@@ -221,14 +195,14 @@ h2{
     font-size: 100px;
     margin-left: -90px;
 }
-.about_sec p{
+.about_section p{
     font-size:16px;
     line-height: 30px;
     color: #fff;
     font-family: Open Sans,Regular;
 
 }
-.about_sec button{
+.about_section button{
     margin-top: 40px;
     margin-left: 0px;
     width: 230px;
