@@ -224,6 +224,13 @@ section.join-team {
     }
 }
 
+@media (max-width: 992px) {
+    .portfolio-cards .card-body {
+        background: #9E0000;
+        padding: 20px;
+    }
+}
+
 @media all and (max-width: 768px) {
  
     .about-cards .card .card-body {
@@ -237,6 +244,30 @@ section.join-team {
     .about-cards .card .card-img-top,
     .about-cards .card {
         margin-bottom: 20px;
+    }
+
+   .portfolio-cards .card-body {
+        background: #9E0000;
+        padding: 20px;
+    }
+
+    .portfolio-cards .card-body .arrowleft, 
+    .portfolio-cards .card-body .arrowright {
+        display: none;
+    }
+
+    .portfolio-cards .card-img-top {
+        height: 288px;
+        background-size: 100% auto;
+    }
+
+    .portfolio-cards .card {
+        margin-bottom: 50px;
+    }
+
+    .portfolio-cards .card-body .card-title {
+        font-size: 30px;
+        line-height: 35px;
     }
 }
 
@@ -276,5 +307,18 @@ section.join-team {
 
     section.join-team {
         text-align: center;
+    }
+
+    .portfolio-cards .card-img-top {
+        height: auto;
+    }
+
+    .portfolio-cards .card-img-top img {
+        display:block !important;
+    }
+
+    .portfolio-cards .card-body .card-title {
+        font-size: 24px;
+        line-height: 28px;
     }
 }
