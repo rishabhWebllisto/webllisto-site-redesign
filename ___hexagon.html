@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>The Simple Website</title>
+
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/all.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+	<script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<style type="text/css">
+body {
+  background: #ecf0f1;
+}
+
+/*#hex1 {
+  width: 75px;
+  height: 75px;
+}
+
+#hex2 {
+  width: 150px;
+  height: 150px;
+}
+*/
+#hex3 {
+  width: 200px;
+  height: 200px;
+}
+
+/*#color1 {
+  background-color: #39D;
+}
+
+#color2 {
+  background-color: #93D;
+}
+*/
+#color3 {
+  background-color: #FFFF;
+}
+
+.hexagon-wrapper {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.hexagon {
+  height: 100%;
+  width: 58.7%;
+  display: inline-block;
+  /*border-top:1px solid red;
+  border-bottom:1px solid red;*/
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotate(60deg);
+  transform-origin: 25% 25%;
+/*  border-top:1px solid red;
+  border-bottom:1px solid red;*/
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotate(-60deg);
+  transform-origin: 25% 75%;
+  /*border-top:1px solid red;
+  border-bottom:1px solid red;*/
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="hex3" class="hexagon-wrapper">
+				<div id="color3" class="hexagon"></div>
+			</div>
+			<div id="hex3" class="hexagon-wrapper">
+				<div id="color3" class="hexagon"></div>
+			</div>
+			<div id="hex3" class="hexagon-wrapper">
+				<div id="color3" class="hexagon"></div>
+			</div>
+		</div>		
+
+	</div>		
+	
+
+	
+	<!-- Scripts -->
+<!-- <script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script> -->
+	<script type='text/javascript' src='js/jquery.min.js'></script>
+	<script type='text/javascript' src='js/all.min.js'></script>
+	<script type='text/javascript' src='js/popper.min.js'></script>
+	<script type='text/javascript' src='js/bootstrap.min.js'></script>
+	<script type='text/javascript' src='js/custom.js'></script>
+</body>
+</html>
