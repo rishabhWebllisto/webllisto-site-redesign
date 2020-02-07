@@ -84,6 +84,18 @@ section.join-team {
     background: rgba(0,0,0,.8);
 }
 
+/*Portfolio Section*/
+.portfolio-cards .card-body {
+    background: #9E0000;
+}
+
+.portfolio-cards .card {
+    margin-bottom: 90px;
+}
+
+.portfolio-cards .card-img-top {
+    height: 100%;
+}
 
 @media all and (max-width: 1366px) {
 
