@@ -224,5 +224,61 @@
     float: left;
 }
 
+@media (max-width:1200px){
+    .info_section {
+        height: 299px;
+    }
+    .img_section {
+        height: 307px;
+        padding: 0;
+    }
+}
+@media (max-width:991px){
+    .info_section .flat_ul li {
+        margin: 0;
+        font-size: 14px;
+    }
+    .info_section {
+        height: 223px;
+        width: 283px;
+    }
+    .img_section {
+        height: 225px;
+        padding: 0;
+    }
+}
+@media (max-width:768px){
+    .img_section.product_eng, .img_section.mobility,.img_section.blockchain,.img_section.aiMl,.img_section.iot,.img_section.devops{
+        background: none;
+    }
+    
+    .info_section.product_eng,.info_section.mobility,.info_section.devops,.info_section.blockchain,.info_section.aiMl,.info_section.iot{
+        float: none;
+        margin: auto;
+    }
+    .info_section {
+        height: 252px;
+        width: calc(100% - 121px);
+        /* padding: 10px 20px; */
+        margin-top: 40px !important;
+    }
+    .img_section {
+        margin-top: 0 !important;
+    }
+    .info_section.product_eng{
+        margin-top:20px !important;
+    }
+    
+}
+@media (max-width:573px){
+    .info_section {
+        margin-top: 100px !important;
+        height: 315px;
+        width: 100%;
+        padding: 13px 24px;
+    }
+    
+}
+
 
 
