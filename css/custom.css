@@ -28,7 +28,6 @@ body {
     position: absolute; 
     
     margin-top: 175px;
-   
     width: 1266px;
     height: 800px;
     text-align: left;
@@ -104,7 +103,7 @@ body {
 .img_section{
     background-size: contain !important;
     height: 357px;
-    padding: 22px;
+    padding: 22px 38px 22px 22px;
 }
 .img_section.product_eng{
     background: transparent url(../images/christopher-gower-m_HRfLhgABo-unsplash.png) 0% 0% no-repeat;
@@ -216,7 +215,6 @@ body {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 @media (max-width:1200px){
     .info_section {
         height: 299px;
@@ -250,30 +248,29 @@ body {
         margin: auto;
     }
     .info_section {
-        height: 252px;
-        width: calc(100% - 121px);
-        /* padding: 10px 20px; */
-        margin-top: 40px !important;
+        height: auto;
+        width: 100%;
+       border-radius: 0;
     }
+   
     .img_section {
-        margin-top: 0 !important;
+        margin-top: 15px !important;
+        height: auto;
+
     }
     .info_section.product_eng{
-        margin-top:20px !important;
+        margin-top:0 !important;
     }
     
 }
 @media (max-width:573px){
     .info_section {
-        margin-top: 100px !important;
-        height: 315px;
         width: 100%;
         padding: 13px 24px;
     }
     
 }
 
-=======
 .team-cards .card .card-text {
     line-height: 24px;
     color: #40AAC0;
@@ -417,12 +414,24 @@ section.join-team {
         line-height: 18px;
         font-size: 14px;
     }
->>>>>>> 83051527d12d0eef51c36b69ea66a0c7e366e2d7
 
     .team-cards .btn.btn-lg {
         padding: 15px 34px;
         font-size: 14px;
     }
+
+}
+
+@media (min-width:1300px){
+    .img_section {
+       height:484px;
+       background-size: 100% 100% !important;
+       padding: 22px 22px 22px 22px;
+}
+.info_section {
+    width: 460px;
+    height: 439px;
+}
 
 }
 
@@ -443,6 +452,7 @@ section.join-team {
         padding: 20px;
     }
 }
+
 
 @media all and (max-width: 768px) {
  
