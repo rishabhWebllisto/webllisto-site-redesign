@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -28,11 +26,6 @@
 		<link rel="stylesheet" href="css/custom.css" />
 
 		<style type="text/css">
-			body {
-				color:white;
-				overflow-x:hidden;
-				overflow-y:hidden;
-			}
 
 			.banner-img {
 				background: transparent linear-gradient(109deg, #EF6621 0%, #EB412B 100%) 0% 0% no-repeat padding-box;
@@ -44,7 +37,7 @@
 			}
 
 			.close-icon {
-				position: relative;
+				position: absolute;
 				top: 20px;
 				right: 79px;
 			}
@@ -57,15 +50,17 @@
 				opacity: 1;
 			}
 
+			.menue-list-background-style {
+			    max-width: 444px;
+			    overflow: hidden;
+			}
+
 			.menue-list-background {
 				background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
 				color: rgb(255, 255, 255);
 				border-radius: 39px;
 				width: 500px;
 				height: 65px;
-				position: relative;
-				left: 100px;
-				top: 125px;
 				margin-bottom: 40px;
 			}
 
@@ -86,6 +81,10 @@
 					height: 326px;
 					opacity: 1;
 				}
+
+				.menue-list-background-style {
+				    max-width: 275px;
+				}
 				
 				.menue-list-icon {
 					height: 40px;
@@ -93,14 +92,7 @@
 				}
 
 				.menue-list-background {
-					background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
-					color: rgb(255, 255, 255);
-					border-radius: 39px;
-					width: 500px;
 					height: 40px;
-					position: relative;
-					left: 270px;
-					top: 75px;
 					margin-bottom: 20px;
 				}
 
@@ -114,6 +106,27 @@
 				}
 
 			}
+
+			@media all and (max-width: 1024px) {
+				.menue-list-background {
+				    background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
+				    color: rgb(255, 255, 255);
+				    border-radius: 39px;
+				    width: 500px;
+				    height: 65px;
+				    margin-bottom: 40px;
+				}
+				
+				.menu-text {
+				    position: absolute;
+				    text-align: left;
+				    font: Bold 37px/61px Playfair Display;
+				    letter-spacing: 0;
+				    color: #FFFFFF;
+				    opacity: 1;
+				}
+			}
+
 			@media all and (max-width: 480px) {
 
 				.menue-list-icon {
@@ -137,14 +150,7 @@
 				}
 
 				.menue-list-background {
-					background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
-					color: rgb(255, 255, 255);
-					border-radius: 39px;
-					width: 500px;
 					height: 60px;
-					position: relative;
-					left: 270px;
-					top: 75px;
 					margin-bottom: 30px;
 				}
 			}
@@ -154,18 +160,17 @@
 	<body>
 	
 	<section class="cotact_address banner-img text-white ">
-  		<div class="container-fluid">
-    		<div class="row">
+    		<div class="row no-gutters">
               <div class="col-12 col-md-8">
 				<div class="menue-background-image">
 					<img src="images/webllisto-menu.png">
 				</div>
               </div>
-               <div class="col-12 col-md-4 d-flex flex-row-reverse ">
+               <div class="col-12 col-md-4 d-flex flex-row-reverse align-items-center vh-100">
                	<div class="close-icon">
 					<img src="images/close.svg">
 				</div>
-               		<ul class="list-unstyled mt-4 ">
+               		<ul class="list-unstyled mt-4 menue-list-background-style">
 					  <li class="menue-list-background">
 					  	<img src="images/home-icon.svg" class="px-2 py-1 menue-list-icon">
 					  	<span class="menu-text">Home</span>
@@ -197,7 +202,6 @@
 					</ul>
               </div>
           	</div>
-	    </div>
   	</section>
 		
 	<footer>
