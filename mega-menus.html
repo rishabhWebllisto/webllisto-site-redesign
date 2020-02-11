@@ -27,13 +27,14 @@
 
 		<style type="text/css">
 
-			.banner-img {
+			.menu-gradient {
 				background: transparent linear-gradient(109deg, #EF6621 0%, #EB412B 100%) 0% 0% no-repeat padding-box;
-				opacity: 1;
-				background-size: 100%;
-				background-repeat: no-repeat, repeat;
-				width: 100%;
 				height: 100vh;
+			}
+
+			.menue-background-image img {
+			    max-width: 476px;
+			    margin-left: 7%;
 			}
 
 			.close-icon {
@@ -42,20 +43,13 @@
 				right: 79px;
 			}
 			
-			.menue-background-image img {
-				margin-top: 167px;
-				margin-left: 141px;
-				width: 935px;
-				height: 540px;
-				opacity: 1;
-			}
 
-			.menue-list-background-style {
+			.menulist-style {
 			    max-width: 444px;
 			    overflow: hidden;
 			}
 
-			.menue-list-background {
+			.menulist-style li{
 				background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
 				color: rgb(255, 255, 255);
 				border-radius: 39px;
@@ -64,25 +58,19 @@
 				margin-bottom: 40px;
 			}
 
-			.menu-text {
+			.menulist-style li a {
 				position: absolute;
-				text-align: left;
 				font: Bold 37px/61px Playfair Display;
-				letter-spacing: 0;
 				color: #FFFFFF;
-				opacity: 1;
 			}
 
 			@media all and (max-width: 1366px) {
 				.menue-background-image img {
-					margin-top: 100px;
-					margin-left: 100px;
-					width: 520px;
-					height: 326px;
-					opacity: 1;
+				    max-width: 476px;
+				    margin-left: 7%;
 				}
 
-				.menue-list-background-style {
+				.menulist-style {
 				    max-width: 275px;
 				}
 				
@@ -91,12 +79,12 @@
 					width: 40px;
 				}
 
-				.menue-list-background {
+				.menulist-style li {
 					height: 40px;
 					margin-bottom: 20px;
 				}
 
-				.menu-text {
+				.menulist-style li a {
 					font: Bold 18px/38px Playfair Display;
 				}
 
@@ -108,22 +96,14 @@
 			}
 
 			@media all and (max-width: 1024px) {
-				.menue-list-background {
-				    background: rgba(255, 255, 255, 0.16) 0% 0% no-repeat padding-box;
-				    color: rgb(255, 255, 255);
-				    border-radius: 39px;
+				.menulist-style li {
 				    width: 500px;
 				    height: 65px;
 				    margin-bottom: 40px;
 				}
-				
+
 				.menu-text {
-				    position: absolute;
-				    text-align: left;
 				    font: Bold 37px/61px Playfair Display;
-				    letter-spacing: 0;
-				    color: #FFFFFF;
-				    opacity: 1;
 				}
 			}
 
@@ -144,12 +124,11 @@
 				}
 
 				.close-icon {
-					position: relative;
 					top: 20px;
 					right: 26px;
 				}
 
-				.menue-list-background {
+				.menulist-style li {
 					height: 60px;
 					margin-bottom: 30px;
 				}
@@ -159,45 +138,60 @@
 	</head>
 	<body>
 	
-	<section class="cotact_address banner-img text-white ">
+	<section class="cotact_address menu-gradient text-white ">
     		<div class="row no-gutters">
               <div class="col-12 col-md-8">
-				<div class="menue-background-image">
-					<img src="images/webllisto-menu.png">
+				<div class="menue-background-image d-flex align-items-center vh-100">
+					<img class="img-fluid" src="images/webllisto-menu.png">
 				</div>
               </div>
                <div class="col-12 col-md-4 d-flex flex-row-reverse align-items-center vh-100">
                	<div class="close-icon">
 					<img src="images/close.svg">
 				</div>
-               		<ul class="list-unstyled mt-4 menue-list-background-style">
-					  <li class="menue-list-background">
-					  	<img src="images/home-icon.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Home</span>
+               		<ul class="list-unstyled mt-4 menulist-style">
+					  <li class="menulist-style">
+					  	<a href="index.html" class="d-block">
+					  		<img src="images/home-icon.svg" class="px-2 py-1 menue-list-icon">
+					  		<span class="menu-text">Home</span>
+					  	</a>
+					  	
 					  </li>
-					<li class="menue-list-background ">
-					  	<img src="images/about-icon.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">About</span>
+					<li class="menulist-style li ">
+						<a href="about-webllisto.html" class="d-block">
+						  	<img src="images/about-icon.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">About</span>
+						</a>
 					</li>
-					<li class="menue-list-background ">
-					  	<img src="images/services-icon.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Services</span>
+					<li class="menulist-style li ">
+						<a href="services-webllisto.html" class="d-block">
+						  	<img src="images/services-icon.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">Services</span>
+						 </a>
 					</li>
-					<li class="menue-list-background ">
-					  	<img src="images/work-icon.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Work</span>
+					<li class="menulist-style li ">
+						<a href="how-we-work-webllisto.html" class="d-block">
+						  	<img src="images/work-icon.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">Work</span>
+						 </a>
 					</li>
-					<li class="menue-list-background ">
-					  	<img src="images/blog.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Blog</span>
+					<li class="menulist-style li ">
+						<a href="blog-webllisto.html" class="d-block">
+						  	<img src="images/blog.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">Blog</span>
+						</a>  	
 					</li>
-					<li class="menue-list-background ">
-					  	<img src="images/portfolio.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Portfolio</span>
+					<li class="menulist-style">
+						<a href="portfolio-webllisto.html" class="d-block">
+						  	<img src="images/portfolio.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">Portfolio</span>
+						</a>
 					</li>
-					<li class="menue-list-background ">
-					  	<img src="images/careers.svg" class="px-2 py-1 menue-list-icon">
-					  	<span class="menu-text">Careers</span>
+					<li class="menulist-style li ">
+						<a href="join-our-team-webllisto.html" class="d-block">
+						  	<img src="images/careers.svg" class="px-2 py-1 menue-list-icon">
+						  	<span class="menu-text">Careers</span>
+						</a>
 					</li>
 					</ul>
               </div>
