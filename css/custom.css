@@ -248,6 +248,66 @@ body {
 /*Header inner page end*/
 
 
+/*Footer*/
+.footer_section {
+    background: transparent linear-gradient(270deg, #04AE6E 0%, #009494 100%) 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.footer_section .fbimg {
+    right: 0;
+    bottom: -180px;
+    z-index: 0;
+}
+
+.footer_section ul {
+    position: relative;
+    z-index: 1;
+}
+
+.footer_section h4 {
+    margin-bottom: 20px;
+}
+
+.footer_section li {
+    padding: 5px 0;
+}
+
+.footer_section a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_section .flist {
+    bottom: 25px;
+}
+
+.social_icon {
+    max-width: 330px;
+    text-align: right;
+}
+
+.social_icon a {
+    color: #009494;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+}
+
+.footer_section .social_icon a {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 @media (max-width:1200px){
     .info_section {
         height: 299px;
@@ -604,8 +664,39 @@ section.join-team {
    .header-text {
        font: 14px/30px Open Sans;
    }
+
+   .footer_section {
+        font-size: 14px;
+        height: auto;
+        padding-bottom: 400px;
+    }
+
+   .footer_section .fbimg {
+        bottom: -130px;
+        max-width: 950px;
+        opacity: 0.3;
+    }
+
+    .footer_section h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer_section .social_icon a {
+        margin-left: 10px;
+    }
+
+    .footer_section .contact_logo_img {
+        margin-bottom: 12px !important;
+    }
    
 } 
+
+@media all and (max-width: 1024px) {
+    .footer_section .fbimg {
+        bottom: 0;
+        max-width: 756px;
+    }
+}
 
 @media all and (max-width: 768px) {
    .webllisto-icon img {
@@ -620,6 +711,27 @@ section.join-team {
        font: 14px/26px Open Sans;
    }
 
+    .social_icon {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+   .footer_section {
+        padding-bottom: 300px;
+    }
+
+   .footer_section .fbimg {
+        max-width: 500px;
+    }
+
+    .footer_section .float-right {
+        float: left !important;
+    }
+
+    .footer_section h4 {
+        font-size: 20px;
+    }
 }    
 
 @media all and (max-width: 767px) {
@@ -639,7 +751,32 @@ section.join-team {
    .page-top-section .headers {
         padding: 0px 0 20px 0;
     }
+
+    .footer_section .fbimg {
+        margin-right: -130px;
+    }
+
 }    
+
+@media all and (max-width: 640px) {
+
+    .footer_section {
+        padding-bottom: 250px;
+    }
+
+    .footer_section br {
+        display: none;
+    }
+
+    .footer_section .contact_logo_img {
+        text-align: left;
+    }
+
+    .social_icon {
+        text-align: left;
+    }
+
+}
 
 @media all and (max-width: 360px) {
 
