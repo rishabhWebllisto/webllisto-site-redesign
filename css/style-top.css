@@ -1,6 +1,25 @@
 /*Common CSS - Vinod*/
+body {
+    font-size: 18px;
+    line-height: 39px;
+    font-family: Open Sans,Regular;
+}
+
 .container {
     max-width: 90%;
+}
+
+button,
+.button,
+.btn {
+    font: normal 20px/33px Open Sans;
+    color: #31384E;
+    background: #ffffff;
+    border:none;
+    font-size: 20px;
+    line-height: 33px;
+    border-radius: 35px;
+    padding: 22px 56px;
 }
 
 /*Home Section 1 - Vinod*/
@@ -11,18 +30,11 @@
     height: auto;
     padding-bottom: 80px;
     background: transparent linear-gradient(90deg, #4BAEC3 0%, #00518F 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
     padding-top: 100px;
 }
 
 .home_section1 .left button {
     margin-top: 40px;
-    width: 230px;
-    height: 70px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 96px;
-    opacity: 1;
-    color: #007bff;
 }
 
 .home_section1 .left h1{
@@ -72,25 +84,20 @@
     margin-top: 450px;
     width: 100%;
     height: 800px;
-    /*text-align: left;*/
-    font: Regular 190px/273px Playfair Display;
-    letter-spacing: 0;
-    color: #fff;
-    opacity: 0.2;
-    
+    font: normal 190px/273px Playfair Display;
+    opacity: 0.2; 
 }
 
 .our_service_sec h1 {
-
     font-size: 100px;
     text-align: right;
 }   
 .content-right-h1 h1 {
-
     font-size: 120px;
     text-align: right;
     opacity: 0.31;
 }
+
 #hex-content{
 z-index: 2;
 position: absolute;
@@ -161,7 +168,6 @@ h2{
 }
 .about_section{
     background: transparent linear-gradient(90deg, #CEB200 0%, #D97400 100%) 0% 0% no-repeat padding-box;
-    height: auto;
 }
 .content-left-h2 h2{
     text-align: left;
@@ -173,81 +179,49 @@ h2{
     margin-left: -90px;
 }
  
-.image-responsive {
-    margin-top: 0px;
-   width: 670px;
-    margin-left: -125px;
+.about_section .bg-image {
+    max-width: 57%;
+    bottom: 0;
+    left: -75px;
 }
+
 .about_section .right {
    top:150px;
 }
-.about_section h2{
-    font-size: 50px;
-    color: #fff;
-}
-.about_section h1{
-        text-align: left;
-    font: Regular 190px/208px Playfair Display;
-    letter-spacing: 0;
-    color:#FFFFFF;
-    opacity: 0.4;
-    font-size: 100px;
-    margin-left: -90px;
-}
-.about_section p{
-    font-size:16px;
-    line-height: 30px;
-    color: #fff;
-    font-family: Open Sans,Regular;
 
+.about_section h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
 }
-.about_section button{
-    margin-top: 40px;
-    margin-left: 0px;
-    width: 230px;
-    height: 70px;
-    background:#FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 96px;
-    opacity: 1;
-    color: #007bff;
+
+.about_section .bg_text {
+    font: normal 190px/208px Playfair Display;
+    opacity: 0.4;
+    position: absolute;
+    left: -58px;
 }
+ 
 .our_service_sec{
     background: transparent linear-gradient(90deg, #0FE192 0%, #03740B 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 900px;
 }
 .our_service_sec .left {
-
     top: 140px;
-
 }
 .our_service_sec h2{
     font-size: 50px;
-    color:#fff;
-
 } 
-.our_service_sec p{
-    font-size:16px;
-    line-height: 30px;
-    color: #fff;
-    font-family: Open Sans,Regular;
-}
 
 .our_service_sec button{
     margin-top: 40px;
     margin-left: 0px;
     width: 230px;
     height: 70px;
-    background:#FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 96px;
-    opacity: 1;
     color: #007bff;
 }
 .box{
  background: #fff 0% 0% no-repeat padding-box;
 box-shadow: 0px 15px 25px #0E440152;
 border-radius: 30px;
-opacity: 1;
 width: 220px;
 height: 220px;
 margin-bottom: 30px;
@@ -257,7 +231,6 @@ margin-bottom: 30px;
  background: #00FF82 0% 0% no-repeat padding-box;
 box-shadow: 0px 15px 25px #0E440152;
 border-radius: 30px;
-opacity: 1;
 width: 220px;
 height: 220px;
 margin-bottom: 30px;
@@ -343,10 +316,7 @@ a:not([href]):not([tabindex]){
 
 .number {
     font-size: 170px;
-    font-family: Open Sans;
     font-weight: bold;
-    color: 
-    #fff;
     opacity: 0.31;
 }
 .circle_bg{
@@ -377,7 +347,6 @@ transparent linear-gradient(234deg, #9D50BB 0%,
 }
 .portfolio p{
     font-size: 16px;
-    color:#fff;
     line-height: 30px;
 }
 .portfolio button{
@@ -394,8 +363,6 @@ color:#007bff;
     font-size: 120px;
     text-align: right;
     margin-top: -60px;
-    color: 
-    #fff;
     opacity: 0.21;
 }
 
@@ -404,9 +371,6 @@ color:#007bff;
 .testimonials {
     background: transparent linear-gradient(126deg, #0B42F5 0%, #34B3FF 100%) 0% 0% no-repeat padding-box;
     height: auto;
-}
-.testimonials p{
-    font-family: Open Sans;
 }
 .testimonials .left-image.img-fluid {
     width: 120px;
@@ -420,7 +384,6 @@ color:#007bff;
     font-size: 115px;
     text-align: right;
     opacity: 0.31;
-    color:#fff;
 }
 .right-image img {
     height: 600px;
@@ -431,7 +394,6 @@ color:#007bff;
     padding: 0px;
 }
 .carousel .item {
-    color: #fff;
     overflow: hidden;
     min-height: 120px;
     font-size: 16px;
@@ -443,7 +405,6 @@ color:#007bff;
     border-radius: 50%;
 }
 .carousel .testimonial {
-  
     position: relative;
 }
 .carousel .testimonial::before {
@@ -458,7 +419,6 @@ color:#007bff;
 }
 .carousel .overview b {
     text-transform: uppercase;
-    color: #fff;    
 }
 .carousel .carousel-indicators {
     bottom: -40px;
@@ -474,7 +434,6 @@ color:#007bff;
     border: 1px solid #fff;
 }
 .carousel-indicators li.active {
-    color: #fff;
     background: #fff;    
     border: 1px double;    
 }
@@ -496,7 +455,6 @@ color:#007bff;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -564,7 +522,6 @@ color:
 }
 
 .our-team .content-left-h1 h1 {
-
     font-size: 100px;
     line-height: 169px;
     margin-top: 0px;
@@ -619,9 +576,7 @@ button:focus, button:active {
     background: transparent linear-gradient(90deg, #EA38FE 0%, #35007A 100%) 0% 0% no-repeat padding-box;
     padding-top: 150px;
 }
-.contact_info p {
-    color: #fff;
-}
+
 .contact_bg{
     background-image: url(../images/phone_PNG49000.png);
     background-repeat: no-repeat;
@@ -684,7 +639,6 @@ footer{
 .footer_section h3{
     font-size: 23px;
     font-weight: bold;
-       color: #fff; 
 }
 .footer_section .bg {
 
@@ -698,7 +652,6 @@ footer{
 .verticle ul {
 
     list-style: none;
-    color: #fff;
 
 }
 /*End footer*/
@@ -782,7 +735,7 @@ footer{
  .form-control{    width: 100%; }
  .section-1 > .row >.logo{    margin-left: 0px; }
  .section-1 > .content > .left > button{    margin-left: 0px; }
- .#contetn-left-h1{margin-top: 80px;}
+ #contetn-left-h1{margin-top: 80px;}
  #backdrop{font-size: 60px; }
  #hex-content{height: 700px;}
  .section-1{height: auto;}
