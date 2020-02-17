@@ -345,7 +345,7 @@ a:not([href]):not([tabindex]) {
 	margin-left: -105px;
 }
 
-.how_we_work .left h1 {
+.how_we_work .bg_text {
 	font-size: 190px;
     color: #fff;
     opacity: 0.09;
@@ -353,6 +353,7 @@ a:not([href]):not([tabindex]) {
     bottom: -142px;
     margin-left: -60px;
     line-height: 144px;
+     font-family: 'Playfair Display';
 }
 
 .how_we_work .left {
@@ -412,12 +413,14 @@ a:not([href]):not([tabindex]) {
 	line-height: 50%;
 }
 
-.portfolio .bg_text h1 {
+.portfolio .bg_text {
 	font-size: 190px;
 	text-align: right;
-	margin-top: -60px;
-	margin-right: -170px;
 	opacity: 0.05;
+	position: absolute;
+    right: -145px;
+    top:-120px;
+    font-family: 'Playfair Display';
 
 }
 .portfolio h2{
@@ -428,7 +431,7 @@ a:not([href]):not([tabindex]) {
 	background-repeat: no-repeat;
 	bottom: -50px;
 	height: 576px;
-	top: -136px;
+	top: 40px;
 }
 .slideshow-container {
 	max-width: 1000px;
@@ -540,10 +543,12 @@ a:not([href]):not([tabindex]) {
 }
 
 
-.testimonials .content-right-h1 h1 {
+.testimonials .bg_text {
 	font-size: 190px;
 	text-align: right;
 	opacity: 0.1;
+	position: absolute;
+	font-family: 'Playfair Display';
 }
 
 .right-image img {
@@ -614,24 +619,14 @@ a:not([href]):not([tabindex]) {
 
 /*end testimonial slider*/
 
-
-/*Portfolio slider*/
-
-
-/* Slideshow container */
-
-
-
-
 /*Join Team*/
 
 .join-team{
 	background: transparent linear-gradient(269deg, #05B5AC 0%, #96DEDA 100%) 0% 0% no-repeat padding-box;
-	width: 100%;padding: 8% 0;
+	width: 100%;padding: 6% 0;
 }
 
-.join-team-content h2 {
-    font-size: ;
+.join-team-content h1{
     text-align: left;
     font-size: 190px;
     font-family: Playfair Display;
@@ -641,6 +636,7 @@ a:not([href]):not([tabindex]) {
     line-height: 186px;
     opacity: 0.14;
     margin-left: 20px;
+    
 }
 
 .thumb-wrapper {
@@ -648,6 +644,7 @@ a:not([href]):not([tabindex]) {
     border-radius: 35px;
     opacity: 1;
     padding: 20px;
+    margin-right: 20px;
 }
 
 .thumb-wrapper .img-box{
@@ -677,7 +674,8 @@ a:not([href]):not([tabindex]) {
 
 .thumb-content h4{
 	text-align: left;
-	font-size: 30px !important;font-weight: 800;
+	font-size: 30px !important;
+	font-weight: bold;
 	letter-spacing: 0;
 	color: #343434;
 	padding: 60px 0px 0px;
@@ -739,6 +737,7 @@ a:not([href]):not([tabindex]) {
     line-height: 60px;
 }
 
+p.item-price{font-size:16px;}
 
 
 /*End Our Team Section css*/
