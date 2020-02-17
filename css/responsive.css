@@ -51,8 +51,9 @@ h2 { font-size: 36px; margin-bottom: 20px !important;line-height: 36px !importan
 .testimonials .right-image{height: 585px;}
 .testimonials .bg_text{ padding-top: 50px;font-size: 130px;}
 .testimonials .left-image.img-fluid { width: 110px;   margin-top: 90px;  margin-bottom: 20px;}
-.testimonials .carousel-control-next, .carousel-control-prev{  width: 90%; }
+.testimonials .carousel-control-next, .carousel-control-prev{  width: 90%; bottom: -47px; }
 .testimonials .carousel-control-next img, .carousel-control-prev img{width: 25px;}
+
 
 /*Join our team*/
 .join-team-content h1{padding-top: 0px;font-size: 130px;}
@@ -86,6 +87,8 @@ p.item-price{font-size:14px;}
 /*media screen 768*/
 
 @media screen and (max-width: 768px){
+	.home_section1 .left h1 { font-size: 40px;line-height: 50px;}
+
 	.about_section .bg_text { font: normal 90px/100px Playfair Display;left: -20px;top: 150px;	}
 
 	.our_service_sec .box { width: 160px; height: 200px; margin-bottom: 15px;}
@@ -102,4 +105,6 @@ p.item-price{font-size:14px;}
 	.contact .form-control{width: 100%;}
 	.contact button{margin-left: 30%;}
 	.contact_bg {height: 700px;}
+
+	
 }
