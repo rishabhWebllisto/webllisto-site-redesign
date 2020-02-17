@@ -24,6 +24,7 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/style-top.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
 
 	</head>
 	<body>
@@ -79,33 +80,41 @@
 			<div class="col-md-6 left">
 			<h2>Our Services</h2>
 			<p>We provide expert web advancement solutions to overpass the gap between you and your audience. Our service is straight forward, and We focus on satisfaction with our customers all over the world by helping them to accomplish their goals most cost-effectively. <br>
-			As one of the best digital agencies, We have more than 6+ years of industry experience in development and been supporting multiple companies.<br>With our committed work practices, we deliver high-quality services/products. The part of our work strategies is to make a long term impact on your business. We aim at listening & understanding your requirements and developing reliable and outstanding solutions. We don't stop until you are delighted! We Know Every Client builds a website with a purpose, so we will help him to design the Website in such a way that he can achieve his goal.</p>		
-			<button type="button"class="btn btn-primary">Know More</button>
+			As one of the best digital agencies, We have more than 6+ years of industry experience in development and been supporting multiple companies.<br>With our committed work practices, we deliver high-quality services/products. The part of our work strategies is to make a long term impact on your business.</p>		
+			<button type="button"class="btn btn-primary">Know more</button>
 			</div>
 			
 			<div class="col-md-6 right">
 				<div class="row">
 				<div class="col-12 col-sm-6">
-					<div class="box active">
-						<img class="img-fluid" src="images/Coding.png">
+					<div class="box">
+						<div class="circle-box">
+							<img class="img-fluid" src="images/Coding.png">
+						</div>
 						<h3>PRODUCT<br><span class="box-inner">ENGINEERING</span></h3>
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="box">
-						<img class="img-fluid" src="images/002-app.png">
+						<div class="circle-box">
+							<img class="img-fluid" src="images/002-app.png">
+						</div>
 						<h3>MOBILITY</h3>
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="box">
-						<img class="img-fluid" src="images/003-vector.png">
+						<div class="circle-box">
+							<img class="img-fluid" src="images/003-vector.png">
+						</div>
 						<h3>GRAPHICS<br><span class="box-inner">DESIGNING</span></h3>
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="box">
+						<div class="circle-box">
 						<img class="img-fluid" src="images/blockchain.png">
+						</div>
 						<h3>BLOCKCHAIN<br><span class="box-inner"></span></h3>
 					</div>
 				</div>
@@ -118,7 +127,7 @@
 	</section>
 
 	<!-- How we work-->
-	<section class="how_we_work text-white">
+	<section class="how_we_work vh-100">
 	<div class="container-fluid">
 		<div class="row">
 			
@@ -170,7 +179,7 @@
 					</div>
 				</div>
 					
-		
+			<button type="button"class="btn btn-primary">Know more</button>
 		
 		</div>
 		</div>
@@ -179,7 +188,7 @@
 	</section>
 
 	<!-- Portfolio-->
-	<section class="portfolio text-white">
+	<section class="portfolio vh-100 text-white">
 	<div class="container">
 			<div class="row">
 			
@@ -193,16 +202,13 @@
 
 			<div class="col-md-6 right">
 							
-					<!-- <img class="img-fluid"src="images/Group 757.png"> -->
-			<div id="port" class="content-right-h1" ><h1>Portfolio</h1></div>
+			<div class="bg_text" >
+				<h1>Portfolio</h1>
+			</div>
 						<div class="slideshow-container">
 						<div class="mySlides ">						 
 						  <img class="img-fluid" src="images/Sanlam Private Wealth - Sanlam Private Wealth.png">						 
 						</div>
-						<!-- <div class="mySlides">						 
-						  <img class="img-fluid" src="images/Sanlam Private Wealth - Sanlam Private Wealth.png" >						 
-						</div> -->
-						
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -214,8 +220,10 @@
 	
 
 	</section>
+<!-- End Protfolio Section -->
 
-	<section class="testimonials text-white">
+<!-- Testimonial Section -->
+	<section class="testimonials vh-100 text-white">
 		<div class="container">
 						<div class="row">
 							<div class="col-md-6">
@@ -274,12 +282,23 @@
 											</div>			
 										</div>
 									</div>
+									<a class="carousel-control-prev" data-target="#myCarousel"  href="#myCarousel" role="button" data-slide="prev">
+            <span aria-hidden="true" data-target="#myCarousel" ><img class="img-fluid" src="images/round-left-button-2.svg"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next"data-target="#myCarousel"  href="#" role="button" data-slide="next">
+            <span  aria-hidden="true"><img class="img-fluid" src="images/round-left-button.svg"> </span>
+            <span class="sr-only" data-target="#myCarousel" >Next</span>
+        </a>
 								</div>
+								
 							</div>
+
 					<div class="col-md-6">
 						<div class="right-image">
 							<div id="testimonial" class="content-right-h1" ><h1>Testimonial</h1></div>
-							<img class="img-fluid" src="images/Mask Group 16.png">
+							<!-- <img class="img-fluid" src="images/Mask Group 16.png"> -->
 						</div>
 					</div>		
 						</div>
@@ -289,175 +308,200 @@
 
 
 <!-- Our Team Section -->
-<section class="our-team text-white">
-<div class="container-fluid">
-	<div class="col-md-12">
-		
-			<h2 style="text-align: center;">Join our team</h2>
-			
-	</div>
-	<div class="row">
-		<div class="col-md-4 join-team">
-			<div id="team" class="content-left-h1" ><h1>Join<br>Team</h1></div>
-		</div>
-		<div class="col-md-8">
-		
-			<div id="my-Carousel" class="carousel slide" data-ride="carousel">
-				<!-- Carousel indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#my-Carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#my-Carousel" data-slide-to="1"></li>
-					<li data-target="#my-Carousel" data-slide-to="2"></li>
-				</ol>   
-				<!-- Wrapper for carousel items -->
-				<div class="carousel-inner">
-					<div class="item carousel-item active">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-										<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>			
-					</div>
-					<div class="item carousel-item">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						
-						</div>			
-					</div>
-					<div class="item carousel-item">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="media">
-									
-									<div class="media-body">
-										<div class="team">
-											<i class="fa fa-file-code-o" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui.</p>
-												<a class="team-btn" href="#">Read more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>			
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
+<section class="join-team vh-100">
+    <div>
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <div class="join-team-content">
+            <h2>
+            Join </h2>
+            <img src="images/hand.png" class="img-fluid">
+            <h2>
+             Team</h2>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div id="myCarousel_1" class="carousel slide" data-ride="carousel" data-interval="0">
+      <!-- Carousel indicators -->
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>   --> 
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item carousel-item active">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+           <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>               
+           
+          </div>
+        </div>
+        <div class="item carousel-item">
+             <div class="row">
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+           <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>               
+           
+          </div>
+        </div>
+        <div class="item carousel-item">
+             <div class="row">
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+           <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/icon.svg" class="img-responsive img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  <h4>Web <br>Developer</h4>
+                  <p class="item-price">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                  
+                  <a href="#" class="btn btn-primary know-more">Know More  <span><img src="images/Group 212.svg"></span></a>
+                </div>            
+              </div>
+            </div>               
+           
+          </div>
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control left carousel-control-prev" href="#myCarousel_1" data-slide="prev">
+         <img src="images/right-arrow-1.svg"> 
+      </a>
+      <a class="carousel-control right carousel-control-next" href="#myCarousel_1" data-slide="next">
+         <img src="images/right-arrow.svg">
+      </a>
+    </div>
+
+    <div class="mt-3">
+      <a href="#" class="btn btn-primary view-all ">View all</a>
+    </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Join Team Section -->
+
 <!-- contact section -->
-<section class="contact text-white">
+<section class="contact vh-100 text-white">
 	<div class="container">
 		<div class="row">
 			
 			<div class="col-md-6">
 				<form>
 						<div class="form-group">
-						      <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+						      <input type="text" class="form-control" id="name" placeholder="Your name *" name="name">
 						 </div>
 						 <div class="form-group">
-						      <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+						      <input type="email" class="form-control" id="email" placeholder="Your mail *" name="email">
 						 </div>
 						 <div class="form-group">
-						      <input type="text" class="form-control" id="sub" placeholder="Subject" name="subject">
+						      <input type="text" class="form-control" id="sub" placeholder="Subject *" name="subject">
 						</div>
 						 <div class="form-group">
 						     <textarea name="comment" class="form-control" form="usrform" placeholder="Message"></textarea>
 						</div>
 						    
-				    <button type="submit" class="btn btn-primary">Submit</button>
+				    <button type="submit" class="btn btn-primary justify-content-center">Submit</button>
 				</form>
 
 			</div>
@@ -472,58 +516,7 @@
 		</div>
 	</div>
 </section>				
-	<footer>
-		<section class="footer_section text-white">
-			<div class="container bg">
-				<div class="row">
-
-			<div class="col-md-3">
-				<img class="img-fluid" src="images/logo.png" />
-			<div class="social-icon">
-				<ul>
-					<li><a hrf="#"><img class="social-media" src="images/facebook.png" /></a></li>
-					<li><a hrf="#"><img class="social-media" src="images/linkedin.png" /></a></li>
-					<li><a hrf="#"><img class="social-media" src="images/instagram.png" /></a></li>
-					<li><a hrf="#"><img class="social-media" src="images/twitter.png" /></a></li>
-				</ul>
-			</div>	
-			</div>
-			<div class="col-md-3 verticle">
-				<h3>About Us</h3>
-				<ul>
-					<li><a hrf="#">Home</a></li>
-					<li><a hrf="#">About</a></li>
-					<li><a hrf="#">Service</a></li>
-					<li><a hrf="#">Blog</a></li>
-				
-				</ul>
-			</div>
-			<div class="col-md-3 verticle">
-			<h3>Service</h3>
-			<ul>
-					<li><a hrf="#">Product Engineering</a></li>
-					<li><a hrf="#">Mobility</a></li>
-					<li><a hrf="#">Devops</a></li>
-					<li><a hrf="#">Blockchain</a></li>
-					<li><a hrf="#">AI / ML</a></li>
-					<li><a hrf="#">IOT</a></li>
-					
-				
-				</ul></div>
-			<div class="col-md-3 verticle">
-			<h3>Our Address</h3>
-			<ul>
-					<li>304, Pukhraj Corporate, Janki Nagar, Indore</li>
-					<li>hr@Webllisto.com </li>
-					<li>+91 7314993378 +91-9755281414</li>
-					
-				
-				</ul>
-			</div>
-	</div>	</div>	
-</section>
-
-	</footer>
+	
 	
 		<!-- Footer Scripts -->
 		<script type='text/javascript' src='js/main.js'></script>

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1366px)  {
+
+body p{
+	font-size: 16px;
+	line-height: 26px;
+}
+button, .button, .btn{
+	padding: 18px 30px;
+	font-size: 16px;
+	height: auto;
+	width: auto;
+
+}
+h2 { font-size: 36px !important; margin-bottom: 20px !important;line-height: 36px !important;}
+/* Banner Section*/
+#hex-content{height: 450px;}
+.bg_heading_text{line-height: 105px; font-size: 100px;}
+.home_section1 .left {margin-top: 0px;}
+.home_section1 .left p{line-height: 30px; font-size: 16px;}
+.home_section1 .left h1{font-size: 50px;line-height: 70px;}
+.home_section1 p {margin-top: 20px;}
+
+/*About Section*/
+.about_section .bg_text{font: normal 130px/150px Playfair Display;}
+.about_section h2 {font-size: 36px; margin-bottom: 20px;}
+
+/*Our Service Section*/
+.our_service_sec button{padding: 18px 30px;font-size: 16px;height: auto;width: auto;margin-top: 10px;}
+.our_service_sec .left {top: 90px;}
+.our_service_sec .circle-box {width: 90px;height: 90px;}
+.our_service_sec .right {top: 90px;max-width: 45%;margin-left: 0;}
+.box{width: 230px;height: 230px;margin-bottom: 25px;}
+.box:hover{width: 230px;height: 230px;margin-bottom: 25px;}
+.box h3 {font-size: 22px;margin-left: 20px;line-height: 25px;font-weight: bold;margin-top: 40px;}
+.box-inner {font-size: 16px;line-height: 30px;}
+.circle-box img { padding: 16px 20px 0px 24px;}
+.our_service_sec .bg_text {font: normal 130px/150px Playfair Display; bottom: -130px;}
+
+.how_we_work .left h1{ bottom: -100px; font-size: 130px;}
+.how_we_work .right {top: 40px; color: #fff;max-width: 42%;  margin-left: 70px;}
+.how_we_work .circle_bg{height: 75px; width: 75px;top: 65px;left: 45px; padding: 20px 20px 0 22px;}
+.how_we_work .number{font-size: 140px;}
+.how_we_work .right .icon p {font-size: 16px; margin-left: -100px; line-height: 22px;}
+/*Portfolio Section*/
+.portfolio .slideshow-container{background-size: contain;}
+.portfolio .bg_text h1 { font-size: 130px; margin-right: -110px; margin-top: -70px;}
+.portfolio .mySlides { padding: 41px 0px 0px 0px;}
+.slideshow-container{bottom: 0;	top: -75px;}
+
+/*Testimonials Section*/
+.testimonials .right-image{height: 585px;}
+.testimonials .content-right-h1 h1{ padding-top: 50px;fontsize: 130px;}
+.testimonials .left-image.img-fluid { width: 110px;   margin-top: 90px;  margin-bottom: 20px;}
+.testimonials .carousel-control-next, .carousel-control-prev{  width: 85%; }
+
+
+}
