@@ -374,6 +374,7 @@ a:not([href]):not([tabindex]) {
 .how_we_work .btn{
 	margin-top: 70px;
 }
+.how_we_work .right .col-md-6 { margin-bottom: -40px;}
 .number {
 	font-size: 170px;
 	font-weight: bold;
