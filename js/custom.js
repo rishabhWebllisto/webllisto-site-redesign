@@ -35,3 +35,10 @@ function showSlides(n) {
 	slides[slideIndex-1].style.display = "block";  
 	dots[slideIndex-1].className += " active";
 }
+$(document).ready(function(){
+  $("#myCarousel_1").carousel();
+    if ( $(window).width() < 640 ) {
+       $('.col-sm-4').unwrap().addClass('item');
+       $('.col-sm-4:first').addClass('active');
+    }
+});

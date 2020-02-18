@@ -5,6 +5,9 @@ body p{
 	line-height: 39px;
 	font-family: Open Sans, Regular;
 }
+html {
+    overflow-x: hidden;
+}
 
 .container {
 	max-width: 90%;
@@ -438,7 +441,6 @@ a:not([href]):not([tabindex]) {
 	position: relative;
 	margin: auto;
 }
-
 
 /* Next & previous buttons */
 
