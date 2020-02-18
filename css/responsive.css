@@ -29,12 +29,12 @@ h2 { font-size: 36px !important; margin-bottom: 20px !important;line-height: 36p
 .our_service_sec .left {top: 90px;}
 .our_service_sec .circle-box {width: 90px;height: 90px;}
 .our_service_sec .right {top: 90px;max-width: 45%;margin-left: 0;}
-.box{width: 230px;height: 230px;margin-bottom: 25px;}
+.box{width: 230px;height: 230px;margin-bottom: 30px;}
 .box:hover{width: 230px;height: 230px;margin-bottom: 25px;}
 .box h3 {font-size: 22px;margin-left: 20px;line-height: 25px;font-weight: bold;margin-top: 40px;}
 .box-inner {font-size: 16px;line-height: 30px;}
 .circle-box img { padding: 16px 20px 0px 24px;}
-.our_service_sec .bg_text {font: normal 130px/150px Playfair Display; bottom: -130px;}
+.our_service_sec .bg_text {font: normal 130px/150px Playfair Display; bottom: -75px;}
 
 .how_we_work .bg_text{ bottom: -70px; font-size: 130px;}
 .how_we_work .right {top: 40px; color: #fff;max-width: 42%;  margin-left: 70px;}
@@ -94,7 +94,7 @@ html{overflow-x: hidden;}
 
 .our_service_sec{padding-bottom: 180px;}
 .our_service_sec .bg_text {font: normal 100px/100px Playfair Display; bottom: -90px;right: -110px;}
-.our_service_sec .box { width: 190px;height: 190px;margin-bottom: 65px;}
+.our_service_sec .box { width: 190px;height: 190px;margin-bottom: 20px;}
 .our_service_sec .box-inner { font-size: 14px;}
 .our_service_sec .box h3 {font-size: 18px;line-height: 20px;margin-top: 20px;}
 .our_service_sec .circle-box {width: 70px;height: 70px;}
@@ -133,7 +133,7 @@ html{overflow-x: hidden;}
 	.about_section .right {top: 70px; height: 570px;}
 	.about_section .bg-image{max-width: 60%;}
 
-	.our_service_sec .box { width: 160px; height: 200px; margin-bottom: 60px;}
+	.our_service_sec .box { width: 160px; height: 200px; margin-bottom: 20px;}
 	.our_service_sec .right{max-width: 100%;}
 	.our_service_sec .box h3 {font-size: 18px;line-height: 10px; margin-top: 24px;}
 	.our_service_sec .circle-box {width: 75px; height: 75px;}

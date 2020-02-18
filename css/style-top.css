@@ -232,7 +232,7 @@ h2 {
     opacity: 0.11;
     position: absolute;
     text-align: right;
-    bottom: -150px;
+    bottom: -115px;
     right: -150px;
     
 }
@@ -307,7 +307,7 @@ a:not([href]):not([tabindex]) {
 
 .right .col-md-6 {
 	float: left;
-	margin-bottom: -50px;
+	margin-bottom: 0px;
 }
 
 .our_service_sec .right {
@@ -739,7 +739,7 @@ a:not([href]):not([tabindex]) {
     line-height: 60px;
 }
 
-p.item-price{font-size:16px;}
+p.item-price{font-size:16px;line-height: 30px;}
 
 
 /*End Our Team Section css*/
