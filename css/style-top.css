@@ -5,9 +5,6 @@ body p{
 	line-height: 39px;
 	font-family: Open Sans, Regular;
 }
-html {
-    overflow-x: hidden;
-}
 
 .container {
 	max-width: 90%;
@@ -567,9 +564,7 @@ a:not([href]):not([tabindex]) {cursor: pointer;}
 p.item-price{font-size:16px;line-height: 30px;}
 /*End Our Team Section css*/
 
-body {
-	overflow-x: hidden;
-}
+ 
 .col-carousel {
 	margin: 70px 0;
 }
