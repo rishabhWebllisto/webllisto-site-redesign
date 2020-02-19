@@ -203,7 +203,6 @@ html{overflow-x: hidden;}
 	button, .button, .btn { padding: 14px 30px;font-size: 14px;}
 
 }
-
 /*media screen 320*/
 
 @media screen and (max-width: 320px)
@@ -213,3 +212,29 @@ html{overflow-x: hidden;}
 
 	.testimonials .carousel-control-next, .carousel-control-prev{width: 85%;}
 }
+
+/*Landscape view*/
+
+@media all and (orientation: landscape) and (max-width: 731px){
+.how_we_work .number { margin-left: 280px;}
+.how_we_work .circle_bg {margin-left: 280px;}
+.how_we_work .btn {margin-left: 40%;}
+.item.carousel-item .d-none {  display: block !important;}
+.portfolio .mySlides {padding: 48px 0px 0px 0px;}
+}
+
+@media all and (orientation: landscape) and (max-width: 640px){
+.how_we_work .number { margin-left: 240px;}
+.how_we_work .circle_bg {margin-left: 240px;}
+.how_we_work .btn {margin-left: 38%;}
+.item.carousel-item .d-none {  display: block !important;}
+}
+
+@media all and (orientation: landscape) and (max-width: 568px){
+	.how_we_work .number {margin-left: 200px;}
+	.how_we_work .circle_bg {margin-left: 200px;}
+	.how_we_work .btn {margin-left: 36%;}
+	.item.carousel-item .d-none {  display: none !important;}
+}
+
+
