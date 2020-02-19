@@ -9,9 +9,7 @@ button, .button, .btn{
 	font-size: 16px;
 	height: auto;
 	width: auto;
-
 }
-
 h2 { font-size: 36px !important; margin-bottom: 20px !important;line-height: 36px !important;}
 /* Banner Section*/
 #hex-content{height: 450px;}
@@ -157,10 +155,7 @@ html{overflow-x: hidden;}
 
 	.contact .form-control{width: 100%;}
 	.contact button{margin-left: 30%;}
-	
-	
 }
-
 /*media screen 640*/
 
 @media screen and (max-width:767px)
