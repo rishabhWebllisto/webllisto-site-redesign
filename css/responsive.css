@@ -1,0 +1,240 @@
+@media only screen and (max-width: 1366px)  {
+
+body p{
+	font-size: 16px;
+	line-height: 26px;
+}
+button, .button, .btn{
+	padding: 18px 30px;
+	font-size: 16px;
+	height: auto;
+	width: auto;
+}
+h2 { font-size: 36px !important; margin-bottom: 20px !important;line-height: 36px !important;}
+/* Banner Section*/
+#hex-content{height: 450px;}
+.bg_heading_text{line-height: 105px; font-size: 100px;}
+.home_section1 .left {margin-top: 0px;}
+.home_section1 .left p{line-height: 30px; font-size: 16px;}
+.home_section1 .left h1{font-size: 50px;line-height: 70px;}
+.home_section1 p {margin-top: 20px;}
+
+/*About Section*/
+.about_section .bg_text{font: normal 130px/150px Playfair Display;}
+.about_section h2 {font-size: 36px; margin-bottom: 20px;}
+
+/*Our Service Section*/
+.our_service_sec button{padding: 18px 30px;font-size: 16px;height: auto;width: auto;margin-top: 10px;}
+.our_service_sec .left {top: 90px;}
+.our_service_sec .circle-box {width: 90px;height: 90px;}
+.our_service_sec .right {top: 90px;max-width: 45%;margin-left: 0;}
+.box{width: 230px;height: 230px;margin-bottom: 30px;}
+.box:hover{width: 230px;height: 230px;margin-bottom: 25px;}
+.box h3 {font-size: 22px;margin-left: 20px;line-height: 25px;font-weight: bold;margin-top: 40px;}
+.box-inner {font-size: 16px;line-height: 30px;}
+.circle-box img { padding: 16px 20px 0px 24px;}
+.our_service_sec .bg_text {font: normal 130px/150px Playfair Display; bottom: -75px;}
+
+.how_we_work .bg_text{ bottom: -70px; font-size: 130px;}
+.how_we_work .right {top: 40px; color: #fff;max-width: 42%;  margin-left: 70px;}
+.how_we_work .circle_bg{height: 75px; width: 75px;top: 65px;left: 45px; padding: 20px 20px 0 22px;}
+.how_we_work .number{font-size: 140px;}
+.how_we_work .right .icon p {font-size: 16px; margin-left: -100px; line-height: 22px;}
+.how_we_work .right .col-md-6 { margin-bottom: -60px;}
+/*Portfolio Section*/
+.portfolio .slideshow-container{background-size: contain;}
+.portfolio .bg_text{ font-size: 130px;margin-right: 50px;margin-top: 30px;}
+.portfolio .mySlides { padding: 41px 0px 0px 0px;}
+.slideshow-container{bottom: 0;	top: 20px;}
+.portfolio button{width: auto;height: auto;}
+
+/*Testimonials Section*/
+.testimonials .right-image{height: 585px;}
+.testimonials .bg_text{ padding-top: 50px;font-size: 130px;}
+.testimonials .left-image.img-fluid { width: 110px;   margin-top: 90px;  margin-bottom: 20px;}
+.testimonials .carousel-control-next, .carousel-control-prev{  width: 90%; bottom: -47px; }
+.testimonials .carousel-control-next img, .carousel-control-prev img{width: 25px;}
+
+
+/*Join our team*/
+.join-team-content h1{padding-top: 0px;font-size: 130px;}
+.thumb-wrapper .img-box img {width: 50px;height: 35px;}
+.thumb-wrapper .img-box{width: 70px; height: 70px;}
+.thumb-content h4 {text-align: left; font-size: 18px !important; padding: 30px 0px 0px;}
+.thumb-wrapper{margin-right: 0px;}
+.know-more{padding: 0px;font-size: 14px;}
+.view-all{ font-size: 16px;height: auto;padding: 0px 70px;}
+p.item-price{font-size:14px;}
+
+/*Contact Section*/
+.contact .form-group { margin-bottom: 1.2rem;}
+.contact .form-control{width: 400px; height: 50px;}
+.contact textarea.form-control { height: 100px;}
+.contact button{width: auto;height: auto;margin-left: 38%;}
+.form-control::placeholder{color: #ffffff96;font-size: 16px;}
+.contact_bg{height: 328px;}
+
+}
+
+/*End*/
+
+/*media screen 1024*/
+
+@media screen and (max-width: 1024px){
+.vh-100 { height: auto !important;}
+html{overflow-x: hidden;}
+
+.home_section1 .left h1 { font-size: 40px; line-height: 60px;}
+.home_section1 .left {margin-top: 40px;}
+.home_section1 .bg_heading_text {line-height: normal; font-size: 80px;}
+
+.about_section .right {top: 100px; height: 580px;}
+.about_section .bg-image{left: -40px;}
+.about_section .bg_text {font: normal 100px/120px Playfair Display;left: -15px;top: 65px;}
+
+.our_service_sec{padding-bottom: 180px;}
+.our_service_sec .bg_text {font: normal 100px/100px Playfair Display; bottom: -90px;right: -110px;}
+.our_service_sec .box { width: 190px;height: 190px;margin-bottom: 20px;}
+.our_service_sec .box-inner { font-size: 14px;}
+.our_service_sec .box h3 {font-size: 18px;line-height: 20px;margin-top: 20px;}
+.our_service_sec .circle-box {width: 70px;height: 70px;}
+
+.how_we_work{padding-bottom: 180px;}
+.how_we_work .bg_text {bottom: 60px;font-size: 100px;line-height: 100px;margin-left: -30px;}
+.how_we_work .right{top:60px;}
+.how_we_work .right .icon p {margin-left: -45px;}
+
+
+.portfolio{padding-bottom: 0px;padding-top: 100px;}
+.portfolio .bg_text {font-size: 100px;margin-right: 90px;margin-top: 60px;}
+/*.portfolio .mySlides img { height: 515px;}
+*/
+.testimonials .bg_text {font-size: 100px;}
+.testimonials .right-image {height: 540px;}
+
+.join-team-content h1{font-size: 100px;}
+.join-team .thumb-wrapper .img-box {width: 50px;height: 50px;}
+.join-team .thumb-content h4{padding: 20px 0px 0px;}
+.join-team .thumb-wrapper .img-box img {width: 40px; height: 30px;}
+.join-team .know-more{font-size: 14px;}
+
+.contact .form-control {width: 100%;}
+
+}
+
+/*media screen 768*/
+
+@media screen and (max-width: 768px){
+	.home_section1 .left h1 { font-size: 40px;line-height: 50px;}
+	.home_section1 #hex-content { height: 400px;}
+	.home_section1 .bg_heading_text{font-size: 65px;}
+
+	.about_section .bg_text { font: normal 80px/100px Playfair Display;left: 0px;top: 70px;	}
+	.about_section .right {top: 70px; height: 570px;}
+	.about_section .bg-image{max-width: 60%;}
+
+	.our_service_sec .box { width: 160px; height: 200px; margin-bottom: 20px;}
+	.our_service_sec .right{max-width: 100%;}
+	.our_service_sec .box h3 {font-size: 18px;line-height: 10px; margin-top: 24px;}
+	.our_service_sec .circle-box {width: 75px; height: 75px;}
+	.our_service_sec .bg_text{font:normal 80px/100px Playfair Display; right: -50px;}
+
+
+	.how_we_work .right{max-width: 100%;margin-left:0px;}	
+	.how_we_work .right .icon p{margin-left: -22px;}
+	.how_we_work .bg_text{ font:normal 80px/100px Playfair Display;margin-left: -30px; }
+
+	.portfolio .bg_text{font:normal 80px/100px Playfair Display;margin-top: 90px;margin-right: 100px;}
+	.portfolio button {margin-top: 10px;}
+
+	.testimonials{margin-bottom: -30px;}
+	.testimonials .bg_text {font-size: 80px;padding-top: 85px;}
+	.testimonials .left-image.img-fluid { width: 60px;margin-top: 70px;}
+
+	.join-team-content h1 { font-size: 80px;}
+
+	.contact .form-control{width: 100%;}
+	.contact button{margin-left: 30%;}
+}
+/*media screen 640*/
+
+@media screen and (max-width:767px)
+{
+	.home_section1 .left button { margin-top: 10px;}
+	.home_section1 #hex-content { height: 300px;}
+	.home_section1 .left { margin-top: 300px;}
+	.home_section1 .bg_heading_text { display: none;}
+
+	.about_section .bg_text{display: none;}
+	.about_section .right .d-none { display: block !important;margin-bottom: 20px;}
+	.about_section .right {top: 70px; height: auto; padding-bottom: 120px;}
+
+	.our_service_sec .bg_text{ display: none; }
+	.right .col-md-6{margin-bottom: 0px;}
+	.our_service_sec .box {width: 270px;margin: 0 auto; height: 260px; margin-bottom: 30px;}
+	.our_service_sec .circle-box {width: 90px; height: 90px;}
+	.our_service_sec .box-inner {font-size: 14px;}
+	.our_service_sec .box h3 {font-size: 18px; margin-top: 50px;}
+	.our_service_sec .right {top: 120px;}
+	.our_service_sec button {padding: 14px 30px;font-size: 14px;}
+
+	.how_we_work .bg_text{display: none;}
+	.how_we_work .left{height: 350px;}
+	.how_we_work .number{margin-left: 110px;}
+	.how_we_work .circle_bg{margin-left: 112px;}
+	.how_we_work .right .icon p { margin-left: 0px;}
+	.how_we_work .btn{margin-left: 30%;}
+	.how_we_work .right { top: 0;}
+	
+	.portfolio{ padding-top: 50px; }
+	.portfolio .bg_text{display: none;}
+	.slideshow-container{height: auto;top: -30px;}
+	.portfolio .left{margin-bottom: 70px;}
+	.slideshow-container.mob{top: 0px;padding-bottom: 20px;}
+
+	/*.testimonial_bg{background-image: url('../images/Mask Group 16.png');background-size: contain;background-repeat: no-repeat;opacity: 0.6; height: 600px; margin-bottom: 30px;background-position: bottom;}*/
+	.testimonials { padding-bottom: 70px;}
+	.join-team-content { display: none;}
+	.join-team .no-gutters { margin-right: 20px;margin-left: 20px;}
+
+	.contact{padding-top: 70px;}
+	.contact_bg { height: 200px;}
+
+	button, .button, .btn { padding: 14px 30px;font-size: 14px;}
+
+}
+/*media screen 320*/
+
+@media screen and (max-width: 320px)
+{
+	.how_we_work .number {margin-left: 85px;}
+	.how_we_work .circle_bg {margin-left: 90px;}
+
+	.testimonials .carousel-control-next, .carousel-control-prev{width: 85%;}
+}
+
+/*Landscape view*/
+
+@media all and (orientation: landscape) and (max-width: 731px){
+.how_we_work .number { margin-left: 280px;}
+.how_we_work .circle_bg {margin-left: 280px;}
+.how_we_work .btn {margin-left: 40%;}
+.item.carousel-item .d-none {  display: block !important;}
+.portfolio .mySlides {padding: 48px 0px 0px 0px;}
+}
+
+@media all and (orientation: landscape) and (max-width: 640px){
+.how_we_work .number { margin-left: 240px;}
+.how_we_work .circle_bg {margin-left: 240px;}
+.how_we_work .btn {margin-left: 38%;}
+.item.carousel-item .d-none {  display: block !important;}
+}
+
+@media all and (orientation: landscape) and (max-width: 568px){
+	.how_we_work .number {margin-left: 200px;}
+	.how_we_work .circle_bg {margin-left: 200px;}
+	.how_we_work .btn {margin-left: 36%;}
+	.item.carousel-item .d-none {  display: none !important;}
+}
+
+
